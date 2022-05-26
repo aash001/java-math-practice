@@ -17,8 +17,18 @@ public class MathApp {
     double squareRoot = Math.sqrt(num1);
     System.out.println(squareRoot);
     // Problem #5
-    int differenceOfP1 = 85 - 5;
-    int differenceOfP2 = 50 - 10;
-
+    double x1 = 5;
+    double y1 = 10;
+    double x2 = 85;
+    double y2 = 50;
+    double distance = Math.hypot(x1 - x2, y1 - y2);
+    System.out.println(distance);
+    // Problem #6
+    double num2 = -3.8;
+    double absoluteP = Math.abs(num2);
+    System.out.println(absoluteP);
+    // Problem #7
+    double randomNum = Math.random();
+    System.out.println(randomNum);
   }
 }
